@@ -10,18 +10,38 @@ export const Global = createGlobalStyle`
     box-sizing:border-box;
     background-color:#11172B;
  color:#1EC0A0;
-   
+   line-height:150%;
 }
 
 ul,ol{
     list-Style:none
 
 }
-
+a{text-decoration:none;
+    
+}
+a:hover{
+        color:#597992;
+    }
 
 
 h1,
 h2,
 p{
     background: none;
-}`
+}
+
+
+main{
+    display:flex;
+    flex-direction:column;
+    gap:125px;
+
+    @media(min-width:950px){
+        gap:70px;
+    }
+   
+
+}
+h2{font-size:1.5rem}
+`;;
