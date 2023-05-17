@@ -10,13 +10,20 @@ export const Profile=()=>{
 
         <StyledSection>
         <div className="container__description">
-            <p>Olá! Eu sou o </p>
-            <h1>Amauri Araújo</h1>
-            <h2>Desenvolvedor FrontEnd!</h2>
+            <h3 className="hello">{`<> Hello World! </>`}</h3>
+
+            <p> Meu nome é <strong>Amauri Araújo</strong>, vejo na tecnologia uma forma de mudar vidas.
+            Por isso eu sou <strong>Desenvolvedor FrontEnd! </strong></p>
+
+            
+            
         </div>
         <div className="container__img">
-
-            <div className="internal__container__img"><img src={avatar}/></div>
+        <button>Dowload CV</button>
+            <div className="internal__container__img">
+               
+                
+                <img src={avatar}/></div>
             
             
       

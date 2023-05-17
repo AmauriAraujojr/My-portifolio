@@ -12,7 +12,7 @@ export const Header=()=>{
            
                 <div className="headerInternalContainer">
 
-                <h1>Portifólio Amauri</h1>
+               
  
               <button onClick={()=>setIsOpen(!isOpen)}>Abrir menu</button>
               
