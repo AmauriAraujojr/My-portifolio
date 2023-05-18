@@ -1,15 +1,6 @@
 import{styled} from "styled-components"
 export const StyledModal = styled.div`
-.black__role{
-    width:100%;
-    height:100%;
-    background-color:red;
-  
-    position:absolute;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
+
 
 border:1px solid #597992;
 border-radius:5px;

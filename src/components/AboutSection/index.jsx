@@ -19,7 +19,7 @@ export const AboutSection = () => {
         <p>
           Na minha posição atual como programador, tive muito conhecimento e
           vivência com várias tecnologias, entre elas HTML, CSS, JavaScript,
-          React entre outras.Fui capaz de criar e desenvolver websites
+          React entre outras. Fui capaz de criar e desenvolver websites
           responsívos e dinâmicos. Também tive conhecimento de como minhas
           emoções pesavam nas minhas tomadas de decisões, e também sobre a
           gestão do meu tempo e com esse conhecimento é que cheguei ao nível em

@@ -8,6 +8,7 @@ import { Global } from "./styles/global";
 import { StyledContainer } from "./styles/grid";
 import { ListContext } from "./providers/ListContext";
 import { ModalCertic } from "./components/ModalCertificate";
+import { ProjectsSection } from "./components/ProjectsSection";
 
 
 export const App = () => {
@@ -18,18 +19,21 @@ export const App = () => {
       <Global />
 
       <Header />
-
+      
       <StyledContainer>
      <main>
     
       <Profile />
       <AboutSection/>
       <TechsSection/>
-      {modal?<ModalCertic/>:null}
-<CertificatesSection/>     
+     
+      
+<CertificatesSection/>   
+<ProjectsSection/>  
      </main>
 
       </StyledContainer>
+      {modal?<ModalCertic/>:null}
     </>
   );
 };
