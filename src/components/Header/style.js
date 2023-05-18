@@ -9,12 +9,13 @@ export const StyledHeader = styled.header`
   border-bottom: 1px solid #597992;
   nav {
     display: none;
+    width:100%;
 
     ul {
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
 
-      width: 400px;
+     width:100%;
       display: flex;
     }
   }
@@ -22,12 +23,14 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
 
     ul {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       gap: 10px;
+      width:100%;
     }
   }
 
@@ -35,13 +38,12 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
-
+  
     button {
-     background:none;
-    border:none;
-    font-size:2rem;
-    align-self:end;
-
+      background: none;
+      border: none;
+      font-size: 2rem;
+      align-self: end;
     }
   }
   @media (min-width: 974px) {

@@ -9,31 +9,32 @@ import { StyledContainer } from "./styles/grid";
 import { ListContext } from "./providers/ListContext";
 import { ModalCertic } from "./components/ModalCertificate";
 import { ProjectsSection } from "./components/ProjectsSection";
-
+import { ModalProjects } from "./components/ModalProjects";
+import { ModalForm } from "./components/FormModal";
+import { ContactSection } from "./components/Contact Section";
 
 export const App = () => {
-
-  const{modal}=useContext(ListContext)
+  const { modal, modalProject, openForm } = useContext(ListContext);
   return (
     <>
       <Global />
 
       <Header />
-      
-      <StyledContainer>
-     <main>
-    
-      <Profile />
-      <AboutSection/>
-      <TechsSection/>
-     
-      
-<CertificatesSection/>   
-<ProjectsSection/>  
-     </main>
 
+      <StyledContainer>
+        <main>
+          <Profile />
+          <AboutSection />
+          <TechsSection />
+
+          <CertificatesSection />
+          <ProjectsSection />
+          <ContactSection/>
+        </main>
       </StyledContainer>
-      {modal?<ModalCertic/>:null}
+      {modal ? <ModalCertic /> : null}
+      {modalProject ? <ModalProjects /> : null}
+      {openForm ? <ModalForm /> : null}
     </>
   );
 };

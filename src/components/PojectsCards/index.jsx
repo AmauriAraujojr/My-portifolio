@@ -1,13 +1,17 @@
+import { useContext } from "react"
 import { StyledProjectCard } from "./style"
+import { ListContext } from "../../providers/ListContext"
 export const ProjectCard=({project})=>{
 
+    const{setCurrentProject,setModalProject}=useContext(ListContext)
     return(
-        <StyledProjectCard>
+        <StyledProjectCard onClick={()=>setCurrentProject(project)}>
+
             <div>
 
           
             <img src={project.img} alt={project.name} />
-            <p>{project.description}</p>
+            <p>{`${project.description.substring(0,80)}...`}{<button onClick={()=>setModalProject(true)}>Show More</button>}</p>
             </div>
 
       

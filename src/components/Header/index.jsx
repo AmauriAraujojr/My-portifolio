@@ -16,7 +16,7 @@ export const Header = () => {
               <li><a href="#">About</a></li>
               <li><a href="#">Technologies</a></li>
               <li><a href="#">Certificates</a></li>
-
+              <li><a href="#">Projects</a></li>
             </ul>
           </nav>
         </div>
@@ -27,7 +27,7 @@ export const Header = () => {
               <li><a href="#">About</a></li>
               <li><a href="#">Technologies</a></li>
               <li><a href="#">Certificates</a></li>
-
+              <li><a href="#">Projects</a></li>
             </ul>
           </div>
         ) : null}

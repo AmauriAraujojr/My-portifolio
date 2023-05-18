@@ -1,12 +1,12 @@
 import {styled} from "styled-components"
 export const StyledProjectCard= styled.li`
-
+max-width:100%;
 width:350px;
 height:200px;
 display: flex;
 align-items:center;
 background-color: #597992;
-opacity:40%;
+opacity:60%;
 padding:10px;
 border: 1px solid #1EC0A0;
 border-radius:4px;
@@ -14,9 +14,12 @@ border-radius:4px;
 a{
     border: 1px solid #1EC0A0;
     padding:2px;
-    
+  
 }
     
+button{
+    padding:3px;
+}
 div{
     width:50%;
     height:100%;
@@ -41,7 +44,7 @@ h3{
 
 .right{
     align-items:center;
-   
+   justify-content:space-around;
     height:100%;
 }
 .links{
