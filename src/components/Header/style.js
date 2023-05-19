@@ -24,6 +24,8 @@ export const StyledHeader = styled.header`
     align-items: center;
     justify-content: center;
     width:100%;
+   overflow-x:auto;
+  
 
     ul {
       display: flex;

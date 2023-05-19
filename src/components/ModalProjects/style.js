@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledModalProjects = styled.div`
-  height: 500px;
+  height: auto;
   border: 1px solid #597992;
   border-radius: 5px;
   width: 650px;
