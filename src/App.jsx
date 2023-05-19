@@ -29,7 +29,7 @@ export const App = () => {
 
           <CertificatesSection />
           <ProjectsSection />
-          <ContactSection/>
+          <ContactSection />
         </main>
       </StyledContainer>
       {modal ? <ModalCertic /> : null}

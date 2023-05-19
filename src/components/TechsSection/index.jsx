@@ -8,7 +8,7 @@ export const TechsSection = () => {
 
   return (
     <StyledList>
-      <h2>{`<> Technologies </>`}</h2>
+      <h2 id="technology">{`<> Technologies </>`}</h2>
       <div>
         <ul>
           {techList.map((tech) => {

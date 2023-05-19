@@ -14,4 +14,13 @@ display:flex;
         flex-wrap:wrap;
         gap:10px;
     }
+
+    a{
+        font-size:3rem;
+    }
+    button{
+        font-size:3rem;
+        border:none;
+        cursor:pointer;
+    }
 `

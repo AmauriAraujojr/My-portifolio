@@ -50,7 +50,6 @@ export const ListProvider = ({ children }) => {
   ]);
 
   const [projectsList, setPojectsList] = useState([
-    
     {
       name: "MotoLink",
 
@@ -61,19 +60,18 @@ export const ListProvider = ({ children }) => {
       link: "https://moto-link.vercel.app/",
 
       code: "https://github.com/ProjetoFrontEndG4-MotoLink/MotoLink",
-    }
-    
+    },
   ]);
 
   const [certificate, setCertificate] = useState(null);
 
   const [modal, setModal] = useState(false);
 
-  const[modalProject,setModalProject]= useState(false)
+  const [modalProject, setModalProject] = useState(false);
 
-  const [currentProject,setCurrentProject]=useState(null)
+  const [currentProject, setCurrentProject] = useState(null);
 
-  const [openForm,setOpenForm]=useState(false)
+  const [openForm, setOpenForm] = useState(false);
 
   return (
     <ListContext.Provider
@@ -90,7 +88,7 @@ export const ListProvider = ({ children }) => {
         setCertificate,
         modal,
         setModal,
-        projectsList
+        projectsList,
       }}
     >
       {children}
