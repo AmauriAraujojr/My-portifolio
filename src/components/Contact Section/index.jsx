@@ -8,7 +8,7 @@ import { FaInstagramSquare, FaTwitter, FaWhatsapp } from "react-icons/fa";
 export const ContactSection = () => {
   const { setOpenForm } = useContext(ListContext);
   return (
-    <StyledContactSection>
+    <StyledContactSection >
       <h2 id="contact">{`<> Contact </>`}</h2>
 
       <div>
