@@ -6,5 +6,4 @@ export const StyledContainer = styled.div`
     containerWidth ? containerWidth : 1400}px;
   margin: 0 auto;
   padding: 30px;
-  
 `;

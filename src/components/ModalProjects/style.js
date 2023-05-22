@@ -1,5 +1,7 @@
 import { styled } from "styled-components";
-export const StyledModal = styled.div`
+
+export const StyledModalProjects = styled.div`
+  height: auto;
   border: 1px solid #597992;
   border-radius: 5px;
   width: 650px;
@@ -7,11 +9,15 @@ export const StyledModal = styled.div`
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  padding: 30px;
+  padding: 50px;
   position: relative;
   max-width: 95%;
-  img {
-    max-width: 100%;
+  .links {
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    justify-content: center;
+    align-items: end;
   }
   button {
     border: none;
@@ -19,7 +25,14 @@ export const StyledModal = styled.div`
     top: 5px;
     position: absolute;
   }
-  h3 {
+  p {
     color: #597992;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  a {
+    border: 1px solid #1ec0a0;
+    padding: 2px;
   }
 `;

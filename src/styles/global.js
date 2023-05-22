@@ -44,4 +44,35 @@ main{
 
 }
 h2{font-size:1.5rem}
-`;;
+
+.black__role{
+    width:100vw;
+    height:100%;
+    background-color:#12121480;
+  z-index:1;
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  top:1530px;
+  @media(min-width:800px){
+    top:530px;
+  }
+}
+
+.modal__default{
+  width:100vw;
+    height:100%;
+    background-color:#12121480;
+  z-index:1;
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  top:2330px;
+  @media(min-width:800px){
+    top:930px;
+  }
+
+}
+`;
