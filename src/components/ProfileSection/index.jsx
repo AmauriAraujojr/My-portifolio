@@ -22,7 +22,7 @@ export const Profile = () => {
         <div className="container__buttons">
           <a
             className="button"
-            href="https://docs.google.com/document/d/11eGGnDuR-1XXBHvu42bQG9M_IySxcDfmzoA5wHilBmU/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1HHjTT4Y8MU91tgEQxgizX-OcKpU8Oqjw_BdATDV6Vjw/edit?usp=sharing"
             target="_blank"
           >
             Dowload CV
