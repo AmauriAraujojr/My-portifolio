@@ -2,7 +2,11 @@ import { createContext, useState } from "react";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
 import { SiAxios, SiStyledcomponents, SiTypescript } from "react-icons/si";
 import front from "../assets/front.jpg";
-import motolink from "../assets/background-register.svg";
+import motolink from "../assets/moto.png";
+import kenzieHub from "../assets/kenzieHub.png"
+import burguer from "../assets/buurguer.png"
+import nu from "../assets/nu.png"
+
 export const ListContext = createContext({});
 
 export const ListProvider = ({ children }) => {
@@ -61,6 +65,41 @@ export const ListProvider = ({ children }) => {
 
       code: "https://github.com/ProjetoFrontEndG4-MotoLink/MotoLink",
     },
+
+     {
+      name: "KenzieHub",
+
+      img: `${kenzieHub}`,
+
+      description:
+        "Kezie Hub é um projeto desenvolvido durante meu curso na Kenzie , trata-se de uma plataforma de alunos, onde o aluno pode listar, deletar, e atualizar as tecnologias que ele domina. Tecnologías utilizadas: React, JavaScript, Styled-Components, React-hook-form, React-RouterDom.",
+      link: "https://keziehub.vercel.app/",
+
+      code: "https://github.com/Kenzie-Academy-Brasil-Developers/entrega-kenzie-hub-AmauriAraujo",
+    },
+    {
+      name: "Hamburgueria",
+
+      img: `${burguer}`,
+
+      description:
+        "Uma Hamburgueria online, temos um cardápio onde é possível filtrar produtos por nome e categoria, adicionando o mesmo ao carrinho.Tecnologías utilizadas: React, JavaScript, Styled-Components, React-hook-form, React-RouterDom.",
+      link: "https://kenzie-burguer-v2-template-amauri-araujo.vercel.app/",
+
+      code: "https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template-AmauriAraujo",
+    },
+    {
+      name: "NuKenzie",
+
+      img: `${nu}`,
+
+      description:
+        "Essa é uma pequena aplicação de controle financeiro, para cadastro de receitas e despesas. Tecnologías utilizadas: React, JavaScript, Css.",
+      link: "https://react-entrega-s1-template-nu-kenzie-amauri-ar-aujo.vercel.app/",
+
+      code: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-AmauriARaujo",
+    },
+
   ]);
 
   const [certificate, setCertificate] = useState(null);

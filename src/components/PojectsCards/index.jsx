@@ -12,7 +12,7 @@ export const ProjectCard = ({ project }) => {
       <div>
         <img src={project.img} alt={project.name} />
         <p>
-          {`${project.description.substring(0, 80)}...`}
+          {`${project.description.substring(0, 50)}...`}
           {
             <button onClick={() => setModalProject(true)}>
               <CgMathPlus />

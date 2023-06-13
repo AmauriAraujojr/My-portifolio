@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 export const StyledProjectCard = styled.li`
   max-width: 100%;
   width: 350px;
-  height: 200px;
+  height: 250px;
   display: flex;
   align-items: center;
   background-color: #597992;
@@ -10,6 +10,7 @@ export const StyledProjectCard = styled.li`
   padding: 10px;
   border: 1px solid #1ec0a0;
   border-radius: 4px;
+  
 
   a {
     border: 1px solid #1ec0a0;
@@ -38,8 +39,8 @@ export const StyledProjectCard = styled.li`
   }
   img {
     max-width: 90%;
-    max-height: 50%;
-    height: 50%;
+    max-height: 60%;
+  
     background: none;
   }
   p {
